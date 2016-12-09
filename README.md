@@ -2,8 +2,8 @@
 Deep Q Learning - Convolutional neural network  
 Used libraries : Theano - Keras, Numpy and Pygame  
 
-The agent is a red brick which can move left and right trying to avoid collision with other bricks which falling from the sky.  
-Given images of the current state of the game, the agent can neatly choose the best move to survive.  
+The agent is a red panel which can move left and right trying to avoid collision with other black bricks which are falling from the sky.  
+Given images of the current state of the game, the agent can neatly choose the best move to survive as long as possible.  
 
 Algorithm :  
   Inspired by DeepMind's reinforcement learning with Atari game.  
