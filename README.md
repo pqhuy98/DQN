@@ -1,4 +1,4 @@
-# deepqlearning
+# Deep Q Learning
 Deep Q Learning - Convolutional neural network  
 Used libraries : Theano - Keras, Numpy and Pygame  
 
