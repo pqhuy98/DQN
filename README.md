@@ -37,6 +37,10 @@ Algorithm :
       If the current state is a penalty state :  
         Add the current state to the experience replay with probability 100%.  
       Else :  
-        Add the current state to the experience replay with probability 50%.  
+        Add the current state to the experience replay with probability 50%.
+Result :
+	![alt tag](https://github.com/pqhuy98/Deep-Q-Learning/blob/master/reinforcement-learning.gif)
+
+
 Reference :  
   https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf  
