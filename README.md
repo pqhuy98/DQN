@@ -5,8 +5,7 @@ Used libraries : Theano - Keras, Numpy and Pygame
 The agent is a red panel which can move left and right trying to avoid collision with other black bricks which are falling from the sky.  
 Given images of the current state of the game, the agent can neatly choose the best move to survive as long as possible.  
 
-Algorithm :  
-  Inspired by DeepMind's reinforcement learning with Atari game.  
+Algorithm : modified DeepMind's reinforcement learning with Atari game.  
   
 		Collision penalty : -100  
 		Reward for survival after one frame : 1  
