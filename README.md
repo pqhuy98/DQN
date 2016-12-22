@@ -4,38 +4,8 @@ Used libraries : Theano - Keras for GPU calculations and Numpy.
 
 This project is about teaching computer to play game without having any preknowledge about the game (learn from raw pixels). In this sample experience, the computer control a red panel which can move left and right try to avoid collision with other black bricks which are falling from the sky. Given only images of the game and the reward the agent gets after each move he chose, the agent must learn a strategy to survive as long as possible.
 
-Algorithm : Deep Q learning using convolutional neural network.
-  
-		Collision penalty : -100  
-		Reward for survival after one frame : 1  
-		Future discount : 70%  
+Algorithm : Deep Q learning using convolutional neural network.  
 
-  The agent is a convolutional neural network with following struture :  
-
-    Input shape :       (4,32,32) -- 4 lastest gray-color 32x32 frames of the current game.  
-    Convolutional 2D :  (16,4,4)  -- 16 filters with size 4x4  
-    RELU layer :        max(0,x)  -- Apply x = max(0,x) for the output of previous layer's neurons   
-    Convolutional 2D :  (32,4,4)  -- 32 filters with size 4x4  
-    RELU layer  
-    Fully connected layer with 128 output units.  
-    RELU layer  
-    Fully connected layer with 2 output units -- expected rewards of moving left and right  
-  
-  Training :  
-	
-    Lossing function : mean squared error  
-    Backpropagation method : rmsprop  
-    Learning rate : 2e-5  
-    Episode : about 2600  
-  
-  Modification :  
-    Since the number of penalty states is very small compared with bonus states, a filter condition was added.  
-    
-    Whenever the current state of the game is add to the experience replay,  
-      If the current state is a penalty state :  
-        Add the current state to the experience replay with probability 100%.  
-      Else :  
-        Add the current state to the experience replay with probability 50%.
 Result :  
 ![alt tag](https://github.com/pqhuy98/Deep-Q-Learning/blob/master/reinforcement-learning.gif)
 
