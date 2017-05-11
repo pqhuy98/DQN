@@ -2,7 +2,7 @@
 Deep Q Learning - Convolutional neural network  
 Used libraries : Theano - Keras for GPU calculations and Numpy.
 
-This project is an implementation of <b>Google DeepMind</b>'s deep Q learning. A program can learn to play games without having any preknowledge about that game i.e. learning from raw pixels.  
+This project is an implementation of Deep Q learning algorithm. A program learns to play games without having any preknowledge about that game i.e. learning from raw pixels.  
   
 In this experiment, the computer control a red panel which can move left or right try to avoid collision with other black bricks which fall from the sky. Given only gray-scaled images of the game and the rewards or penalties got after each move, the computer must learn a strategy to survive as long as possible.  
   
