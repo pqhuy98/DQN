@@ -11,6 +11,5 @@ Trained about 6 hours on a Nvidia Geforce GTX 950M GPU.
   
 Result :  
 ![alt tag](https://github.com/pqhuy98/Deep-Q-Learning/blob/master/reinforcement-learning.gif)
-  
-Reference :  
-  <b>DeepMind</b>'s paper : https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf
+    
+<b>DeepMind</b>'s paper : https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf
